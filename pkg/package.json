@@ -1,0 +1,14 @@
+{
+  "name": "reversi",
+  "version": "0.1.0",
+  "files": [
+    "reversi_bg.wasm",
+    "reversi.js",
+    "reversi.d.ts"
+  ],
+  "module": "reversi.js",
+  "types": "reversi.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
